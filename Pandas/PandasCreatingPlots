@@ -1,0 +1,15 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+filepath = "C:/Users/sharv/Desktop/HAMEED SHARVAN/learn/python/datasets/air_quality_no2.csv"
+air_quality = pd.read_csv(filepath, index_col=0, parse_dates=True)
+# print(air_quality.head()
+
+# plotting quick visual check of data
+def qkvisual(df):
+    df.plot()
+    plt.show()
+
+# qkvisual(air_quality)
+
+air_quality.plot.scatter(x="station_london", y="station_paris", alpha=0.5)
+
