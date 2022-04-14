@@ -1,12 +1,7 @@
 class Item:
     # pass
-    def __init__(self, name: str, price: int, quantity=0):
+    def __init__(self, name, price, quantity):
         # print(f"Instance created for: {name}")
-        # Run validation to the received arguments
-        assert price >= 0, f"Price {price} is not greater than zero"
-        assert quantity >= 0, f"Quantity {quantity} is not greater than zero"
-
-        # assign to self object
         self.name = name
         self.price = price
         self.quantity = quantity
