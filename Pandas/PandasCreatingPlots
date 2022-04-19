@@ -4,7 +4,7 @@ filepath = "C:/Users/sharv/Desktop/HAMEED SHARVAN/learn/python/datasets/air_qual
 air_quality = pd.read_csv(filepath, index_col=0, parse_dates=True)
 # print(air_quality.head()
 
-# plotting quick visual check of data
+# To plot quick visual check of data
 def qkvisual(df):
     df.plot()
     plt.show()
