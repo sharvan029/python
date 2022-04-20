@@ -38,4 +38,3 @@ def binary_search(elm, l):
 list = generate_list(1000)
 print(check_element(900))
 print(binary_search(910, list))
-# print(l)
