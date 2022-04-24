@@ -1,5 +1,4 @@
 #string concatenator
-# youtuber = "sharvan029"
 # print("Subscribe to {}". format(youtuber))
 # using fstring
 # print(f"Subscribe to {youtuber}")
