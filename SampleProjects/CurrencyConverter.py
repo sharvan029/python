@@ -5,6 +5,8 @@ import tkinter as tk
 from tkinter import ttk
 
 
+# class for converting
+
 class RealTimeCurrencyConverter():
     def __init__(self, url):
         # get the real - time exchange rate
