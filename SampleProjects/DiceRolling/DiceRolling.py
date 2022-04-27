@@ -1,4 +1,5 @@
 #Game to throw dice
+# import libraries
 import tkinter
 from PIL import Image, ImageTk
 import random
