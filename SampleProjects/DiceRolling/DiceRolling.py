@@ -13,7 +13,7 @@ root.title('Roll the dice')
 BlankLine = tkinter.Label(root, text="")
 BlankLine.pack()
 
-# adding label with different font and formatting
+# Adding label with different font and formatting
 HeadingLabel = tkinter.Label(root, text= "Hello Player..",
                              fg= "light green",
                              bg= "dark green",
