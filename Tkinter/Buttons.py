@@ -16,5 +16,5 @@ B.pack()
 m.mainloop()
 
 '''
-widgets are added here
+widgets will be added here
 '''
