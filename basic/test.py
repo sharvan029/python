@@ -77,5 +77,10 @@ print(len(string))
 print(ccnt)
 
 
+# find number of white space
+
+str = 'Keep going, Trust in process'
+print(str.count(' '))
+
 
 
